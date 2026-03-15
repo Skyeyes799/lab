@@ -1,0 +1,84 @@
+EXPERIMENT: 7
+File System Forensic Analysis - Autopsy
+DATE: 04/03/2026
+AIM
+To perform File System Forensics Analysis using Autopsy.
+THEORY
+File System Analysis Using Autopsy is a digital forensics platform and graphical interface to
+The Sleuth Kite and other digital forensics tools. Law enforcement, military, and corporate
+examiners use it to investigate what happened on a computer. You can even use it to recover
+photos from your camera’s memory card. It can be directly used to find evidence.
+• Volume and File System Analysis
+• Plug-in Framework
+• Download
+• Documents
+• History
+• Licenses
+Autopsy is a graphical interface to the command line digital investigation analysis tools in The
+Sleuth Kit. Together, they can analyze Windows and UNIX disks and file systems (NTFS, FAT,
+UFS1/2, Ext2/3).
+The Sleuth Kit and Autopsy are both Open Source and run on UNIX platforms (you can use
+Cygwin to run them both on Windows). As Autopsy is HTML-based, you can connect to the
+Autopsy server from any platform using an HTML browser. Autopsy provides a "File Manager"-
+like interface and shows details about deleted data and file system structures.
+Analysis Modes
+• A dead analysis occurs when a dedicated analysis system is used to examine the data from
+a suspect system. In this case, Autopsy and The Sleuth Kit are run in a trusted environment,
+typically in a lab. Autopsy and TSK support raw, Expert Witness, and AFF file formats.
+• A live analysis occurs when the suspect system is being analyzed while it is running. In
+this case, Autopsy and The Sleuth Kit are run from a CD in an untrusted environment. This
+is frequently used during incident response while the incident is being confirmed. After it
+is confirmed, the system can be acquired and a dead analysis performed.
+Evidence Search Techniques
+• File Listing: Analyze the files and directories, including the names of deleted files and files
+with Unicode-based names.
+• File Content: The contents of files can be viewed in raw, hex, or the ASCII strings can be
+extracted. When data is interpreted, Autopsy sanitizes it to prevent damage to the local
+analysis system. Autopsy does not use any client-side scripting languages.
+• Hash Databases: Lookup unknown files in a hash database to quickly identify it as good or
+bad. Autopsy uses the NIST National Software Reference Library (NSRL) and user created
+databases of known good and known bad files.
+• File Type Sorting: Sort the files based on their internal signatures to identify files of a
+known type. Autopsy can also extract only graphic images (including thumbnails). The
+extension of the file will also be compared to the file type to identify files that may have
+had their extension changed to hide them.
+• Timeline of File Activity: In some cases, having a timeline of file activity can help identify
+areas of a file system that may contain evidence. Autopsy can create timelines that contain
+entries for the Modified, Access, and Change (MAC) times of both allocated and
+unallocated files.
+• Keyword Search: Keyword searches of the file system image can be performed using
+ASCII strings and grep regular expressions. Searches can be performed on either the full
+file system image or just the unallocated space. An index file can be created for faster
+searches. Strings that are frequently searched for can be easily configured into Autopsy for
+automated searching.
+• Meta Data Analysis: Meta Data structures contain the details about files and directories.
+Autopsy allows you to view the details of any metadata structure in the file system. This is
+useful for recovering deleted content. Autopsy will search the directories to identify the
+full path of the file that has allocated the structure.
+• Data Unit Analysis: Data Units are where the file content is stored. Autopsy allows you to
+view the contents of any data unit in a variety of formats including ASCII, hexdump, and
+strings. The file type is also given and Autopsy will search the metadata structures to
+identify which has allocated the data unit.
+• Image Details: File system details can be viewed, including on-disk layout and times of
+activity. This mode provides information that is useful during data recovery.
+Autopsy is written in Perl and runs on the same UNIX platforms as The Sleuth Kit:
+• Linux
+• Mac OS X
+• Open & FreeBSD
+• Solaris
+• Cygwin
+PROCEDURE
+1.Run Autopsy and select New Case
+Or
+2.Provide the Case Name and the directory to store the case file. Click on Next.
+1. Add Case Number and Examiner’s details, then click on Finish.
+2. Select Host(Generate new host name based on data source name) and click Next.
+3. Choose the required data source type, in this case Disk Image and cick on Next.
+6.Give path of the data source(Select the local disk from the list ) and make sure the Time
+zone is correct. Then click on next
+7.Configure Ingest. Select the actions we want to perform on selected disk and click on
+Next
+8.Data source has been added and click on Finish
+Output
+RESULT
+File System Forensics Analysis using Autopsy is performed
