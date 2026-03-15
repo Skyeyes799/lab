@@ -1,0 +1,45 @@
+EXPERIMENT 4
+HASH COMPARISON USING HASHCALC
+Date: 07/01/2026
+AIM
+THEORY:
+Using Hash Calc write down the Hash values of popular hashing Hash comparison of different files
+algorithms and do
+HashCalc is an easy-to-use tool that allows to compute message digests, checksums and HMACs
+for files, as well as for text and hex strings. It offers a choice of 12 most popular hash and checksum
+algorithms for calculations.
+Major features:
+• Support of 12 well-known and documented hash and checksum algorithms: MD2, MD4, MD5,
+SHA1, SHA256, SHA384, SHA512, RIPEMD160, PANAMA, TIGER, ADLER32, CRC32;
+• Support of the MD4-based hash algorithm used in many P2P applications (edonkey, emule,
+etc.);
+• Support of 2 modes of calculations: HASH/CHECKSUM and HMAC;
+• Support of 3 input data formats: files, text strings, and hex strings;
+• Work with larger files also
+ALGORITHM
+Step 1:Install Hash Calc https://hashcalc.en.softonic.com/
+Step 2: Run HashCalc. A window gets opened when you run it.
+Step 3: In the Data Format box, select the type of data you want to use for calculations. HashCalc
+allows to perform calculations on files, text strings or hex strings.
+Step 4: In the Data box enter the data for calculations:
+Step 4.1: It is a file name if 'File' Data Format is selected. Type the file name in the Data box, or
+use the Find File button to select the file, or drag and drop the file over the HashCalc window.
+Step 4.2: it is a string of characters if 'Text string' Data Format is selected.
+Step 4.3: it is a string of hexadecimal digits if 'Hex string' Data Format is selected.
+Step 5: To calculate the message digests / checksums for the data, the HMAC box must be
+unchecked. To calculate the HMAC ( Keyed - Hash Message Authentication Code ) for the data
+Step 5.1: Check the HMAC box.
+Step 5.2: In the Key Format combo box, select the type of the key you want to use for calculations.
+HashCalc allows to perform calculations using text keys or hex keys.
+Step 5.3: In the Key box enter the key for HMAC calculations:
+• It is a string of characters if 'Text string' Key Format is selected.
+• Or it is a string of hexadecimal digits if 'Hex string' Key Format is selected.
+Step 6: Select the algorithms you want to use for calculations by checking the boxes with
+appropriate names.
+Step 7: Click the Calculate button, or press Enter on your keyboard.
+OUTPUT
+Find MDS and SHA1 of two blank files 1.docx and 2.docx and compare their hash values When we
+calculated the hash values of two blank files, we obtained same hash values.So the integrity of the
+file is preserved.
+Result: Analysed the Hash values using different hashing algorithms and the output was verified
+successfully.
