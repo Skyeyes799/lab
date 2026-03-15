@@ -1,0 +1,88 @@
+EXPERIMENT 3
+NETWORK PROTOCOL ANALYSIS USING WIRESHARK
+Date: 31/12/2025
+AIM
+To familiarise the working of packet sniffing and analysis tool – Wireshark.
+THEORY
+Wireshark is a highly versatile and widely used open-source network packet analyzer. It lets users
+capture, inspect, and analyze network traffic in real time or from saved files. Wireshark is a powerful
+tool for network troubleshooting, monitoring, and security analysis. It provides detailed information
+about individual network packets, including their source, destination, protocol, payload, and timing,
+making it an invaluable resource for diagnosing network issues, identifying anomalies, and enhancing
+network security. Wireshark is available for multiple platforms, including Linux, Windows, and
+macOS, and is commonly employed by network administrators, security professionals, and developers
+to gain insights into network behavior and resolve connectivity and security challenges.
+Wireshark can be used in the following ways:
+• It is used by network security engineers to examine security problems.
+• It allows the users to watch all the traffic being passed over the network.
+• It is used by network engineers to troubleshoot network issues.
+• It also helps to troubleshoot latency issues and malicious activities on your network.
+• It can also analyze dropped packets.
+• It helps us to know how all the devices like laptop, mobile phones, desktop, switch, routers,
+etc., communicate in a local network or the rest of the world. Features of Wireshark:
+• Multi-platform software: Wireshark runs on multiple operating systems, including Linux,
+Windows, and macOS.
+• Three-pane packet browser: It uses a standard interface with three panes to present packet
+details clearly.
+• Deep protocol inspection: Wireshark can deeply inspect hundreds of network protocols.
+• Live network analysis: It allows real-time data capture from various network types, such as
+Ethernet and loopback
+• Sorting and filtering options: Users can easily filter and sort captured data for focused
+analysis.
+• VoIP analysis: Wireshark includes specialized tools for analyzing VoIP traffic.
+• USB traffic capture: It can capture raw USB traffic, providing broader analysis beyond
+traditional networks.
+• Customizable settings: Filters, timers, and other settings allow precise control over what data
+is captured and displayed.
+• File format support: It supports well-documented capture file formats such as PcapNg and
+Libpcap, which are used to store captured data.
+• Top software for network analysis: Wireshark is highly regarded and widely used for tasks
+such as tracing unauthorized traffic, analysing firewall settings, and troubleshooting network
+issues
+ALGORITHM
+1. Double-click on wireshark to open it.
+2. We will get the traffic traversing through the current interface.
+3. Select the wi-fi option
+4. Click Capture from the menu bar and click start. Then it shows the traffic with the packet
+content written in hexadecimal or ASCII format. And the information above the packet
+content, is the details of the packet header. It will continue listening to all the data packets,
+and you will get a lot of data. If you want to see a particular data, then you can click on the
+red button. The traffic will be stationary, and you can note the parameters like time, source,
+destination, the protocol being used, length, and the Info. To view in-depth details, you can
+click on that particular address; a lot of the information will be displayed below that. There
+will be detailed information on HTTP packets, TCP packets, etc. The red button is shown
+below:
+The screen/interface of the Wireshark is divided into five parts:
+● First part contains a menu bar and the options displayed below it. This part is at
+the top of the window. File and the capture menus options are commonly used
+in Wireshark. The capture menu allows to start the capturing process. And the
+File menu is used to open and save a capture file.
+● The second part is the packet listing window. It determines the packet flow or the
+captured packets in the traffic. It includes the packet number, time, source,
+destination, protocol, length, and info. We can sort the packet list by clicking on
+the column name.
+● Next comes the packet header- detailed window. It contains detailed information
+about the components of the packets. The protocol info can also be expanded or
+minimized according to the information required.
+● The bottom window called the packet contents window, which displays the
+content in ASCII and hexadecimal format.
+● At last, is the filter field which is at the top of the display. The captured packets
+on the screen can be filtered based on any component according to your
+requirements. For example, if we want to see only the packets with the HTTP
+protocol, we can apply filters to that option. All the packets with HTTP as the
+protocol will only be displayed on the screen.
+5. There is a filter block below the menu bar, from where a large amount of data can be
+filtered. For example, if we apply a filter for HTTP, only the interfaces with the HTTP will
+be listed. We can apply filters for TCP,UDP ,ARP,ICMP
+6. Steps for the permanent colorization are: click on the ‘View’ option on the menu bar
+and select ‘Coloring Rules’. Select the option ‘View’ and then choose ‘Colorize Packet
+List’ which is used to toggle the color on and off. Whenever we type any commands in the
+filter command box, it turns green if your command is correct. It turns red if it is incorrect
+or the Wireshark does not recognize your command
+SCREENSHOTS
+1. Open Wireshark tool
+1. Capturing TCP packets
+2. Capturing packets while checking gmail
+3. UDP stream Analysing.
+RESULT
+Familiarised Wireshark and captured different network packet traffic.
