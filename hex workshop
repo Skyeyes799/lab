@@ -1,0 +1,135 @@
+Experiment No: 1
+File Signature Analysis using Hex Workshop
+Date: 10/12/025
+AIM
+To perform file signature analysis and writing down the hex values of popular file types using
+Hex workshop.
+THEORY
+A hex editor is a computer program used to view and edit binary files. A binary file is a file that
+contains data in machine-readable form. Hex editors allow editing the raw data contents of a file,
+instead of other programs which attempt to interpret the data for you. Since a hex editor is used to
+edit binary files, they are sometimes called a binary editor or a binary file editor. If you edit a file
+with a hex editor, you are said to hex edit the file, and the process of using a hex editor is called
+hex editing. A typical hex editor has three areas: an address area on the left, a hexadecimal area in
+the center, and a character area on the right.
+Hexadecimal Area
+The middle hexadecimal area is the most commonly used area of a hex editor. It lists each byte of
+the file in a table, usually sixteen bytes per line. Each byte is listed in a special notation called
+hexadecimal notation, sometimes called hex code. Most numbers in our world are represented in
+decimal or base-10 notation, meaning we use 10 different digits (0 up to 9). Hexadecimal or base-
+16 notation uses 16 different digits: 0 up to 9 and then the letters A, B, C, D, E, F to represent 10,
+11, 12, 13, 14, and 15.
+Address Area
+The address area on the left side of the hex editor displays the address of the first byte of each line.
+The addresses are usually displayed in hexadecimal format, but many hex editors can display
+addresses in decimal format as well. In the address of the first byte of the first line would be 0, and
+the address of the first byte of the second line would be 0010h (or 16 in decimal format).
+Remember that addresses start from 0 so if you have a file of 512 bytes, the byte addresses would
+range from 0 up to 511. Some hex editors also have a ruler along the top of the hex editor to help
+you know the addresses of other bytes in the file.
+Character Area
+Although each byte in a file can store a value from 0 to 255, what matters is what this data means.
+One way bytes are used is to assign a different letter or symbol to each possible value. For example,
+the byte value 65 could represent the character 'A' and the value 33 could represent the symbol '!'.
+The byte values 0 to 127 are usually assigned letters and symbols according to a standard called
+ASCII (although other standards exist). The character area on the right of the hex editor displays
+the ASCII representation of each of the bytes in the hexadecimal area.
+The Hex Workshop Hex Editor is a complete set of hexadecimal development tools for Microsoft.
+Windows. Hex Workshop integrates advanced binary editing and data interpretation and
+visualization with the ease and flexibility of a modern word processor. With the Hex Workshop,
+you can edit, cut, copy, paste, insert, fill and delete binary data. You can also work with data in its
+native structure and data types using our integrated structure viewer and smart bookmarks.
+Data editing is quick and easy that allow you to: jump to file or sector location, find or replace
+data, perform arithmetic, bitwise, and logical operations, binary compare files, generate checksums
+and digests, view character distributions and export data to RTF or HTML for publishing.
+Hex Workshop includes a Sector Editor with disk imaging tools, a Base Converter for converting
+between hex, decimal and binary data types, a Hex Calculator supporting arithmetic and bitwise
+operations, an expression calculator supporting variables, conditionals, iteration and arithmetic
+and bitwise operations, and a data visualizer designed to help you visually identify patterns and
+interesting data from rendered images.
+The Data Inspector allows you to quickly edit and view data in decimal, floating point or time and
+date representations.
+Key Features:
+• Rich Feature Set
+• Highly Customizable User Interface
+• Data Interpretation, Visualization and Parsing
+• Integrated Binary Comparison
+Hex Workshop Layout
+Figure 1.1 Hex Workshop Layout
+1. Tool Bar: The toolbar is the row of icons at the top of Hex Workshop.
+It provides quick access to commonly used functions such as:
+• Open / Save file
+• Undo / Redo
+• Cut / Copy / Paste
+• Search / Replace
+• Bookmarks
+• Checksum tools
+• Structure Viewer
+• Compare files
+2. Data Visualizer: The Data Visualizer helps you view selected data in various representations,
+such as:
+• Bitmap view (visual pattern of bytes)
+• Decimal / Hex graphs
+• Raw binary visualization
+This is useful to identify patterns, signatures, or embedded data.
+3. Editor Window: This is the main hex editing area. It contains:
+• Offset column (addresses)
+• Hexadecimal data column
+• ASCII/text column
+4. Data Inspector: The Data Inspector automatically interprets the selected bytes and shows
+them as:
+• Signed / Unsigned integers
+• Floating-point numbers
+• Binary
+• ASCII / Unicode
+• Date/time values
+Very useful for understanding raw binary data.
+5. Expression Calc: A built-in calculator used for:
+• Evaluating arithmetic & logical expressions
+• Converting between bases (hex, decimal, binary)
+• Working with offsets and ranges
+• Performing checksum calculations
+Ideal for reverse engineering and data analysis.
+6. Structure View: This pane lets you apply C-style structures (.structure files) to the binary.
+Used for parsing:
+• File headers
+• Metadata blocks
+• Network packets
+• Custom binary formats
+7. Results Window: Displays the output from different tools:
+• Search results
+• Compare results
+• Bookmarks list
+• Script outputs
+• Checksum reports
+Acts as a log or analysis summary.
+8. Status Bar: Located at the bottom. It displays:
+• Current cursor position (offset)
+• Selected byte range
+• Edit mode (overwrite/insert)
+• File size
+• Hex/ASCII status
+Helps keep track of editing activity.
+The Hex Workshop Editing Window includes 4 areas:
+1. Offset Header
+2. Offset Area
+3. Hex Area
+4. Text Area
+PROCEDURE
+Step 1: Open Hex Workshop.
+Step 2: Select Open from File menu
+Step 3: Choose any file and Open
+OUTPUT
+Docx file
+File signature: 50 4B 03 04 14 00 06 00
+JPEG File
+File signature: FF D8 FF
+PNG File
+File Signature: 89 50 4E 47 0D 0A 1A 0A
+PDF File
+File Signature: 25 50 44 46
+ZIP File
+File Signature: 50 4b 03 04
+RESULT
+Performed file signature analysis and noted the hex values of popular file types using hex
+workshop.
