@@ -1,0 +1,61 @@
+EXPERIMENT 2
+WEBSITE MIRRORING USING HTTRACK
+Date: 17/12/2025
+AIM
+The aim of this experiment is to use HTTrack to successfully mirror a specified
+website, preserving its structure and content in order to explore the capabilities of
+website mirroring tools for archival, research or offline browsing purposes and scan
+a website and prepare an analysis report of the website
+THEORY
+Website mirroring involves downloading all the files including HTML, images,
+scripts and other resources from a website to create a local copy. This allows for
+offline browsing and analysis without requiring an active internet connection.
+HTTrack is a popular open- source tool used for this purpose.
+1. 2. 3. 4. 5. In this experiment, you will:
+Install HTTrack and necessary security tools.
+Use HTTrack to download a mirror of a website.
+Examine the structure and contents of the mirrored site.
+Observe the effectiveness and limitations of HTTrack.
+HTTrack known as HTTrack Website Copier is a powerful open-source tool
+designed for mirroring websites and downloading their content to a local computer.
+This versatile utility offers a user-friendly graphical interface, making it accessible
+to users across different operating systems including Windows, Linux and macOS.
+With customizable settings users can specify the depth of mirroring, set download
+limits and apply filters to tailor the mirroring process to their specific needs. It also
+supports incremental updates allowing users to keep mirrored websites
+synchronized with changes on the live web. Its web crawling capabilities automate
+the process of traversing websites by following links and preserving the relative
+structure of the content. Whether for archiving, offline browsing or research
+purposes, HTTrack serves as an indispensable tool with extensive documentation
+making it suitable for both novice and experienced users. However, users must
+exercise ethical and legal considerations when employing it to ensure compliance
+with copyright and internet usage laws.
+ALGORITHM
+Here are the basic steps to use HTTrack:
+1.Download and install HTTrack: Visit the official HTTrack website
+(https://www.httrack.com/) and download the appropriate version for your operating
+system. Install the software on your computer.
+2. Launch HTTrack: After installation, launch HTTrack from your computer's
+applications or start menu.
+3. Create a new project: Click on "Create a new project" or go to "File" > "New" to start
+a new project.
+4.Set project options: In the project options, we 'll need to provide some basic
+information:
+• Project name: Choose a name for the project.
+• Base path: Select a location on your computer where the downloaded website
+will be stored.
+• URL: Enter the URL of the website you want to copy.
+5. Set filters (optional): If you want to download only specific parts of the website, can set filters. For example, you can exclude certain file types or specific directories.
+you
+6. Start the download: Click on the "Next" button or go to "Action" > "Download" to
+start the downloading process. HTTrack will start crawling the website, following links,
+and downloading the necessary files.
+7. Monitor the progress: HTTrack will display a progress window showing the number
+of files downloaded, their size, and the current status. You can also see the downloaded
+files and folders in the chosen base path on your computer.
+8. Browse the downloaded website: Once the download is complete, you can open the
+downloaded website by navigating to the base path location on your computer and
+opening the main HTML file or index.html in a web browser.
+OUTPUT
+RESULT
+A website is scanned and mirrored and a report is prepared using HTTrack.
