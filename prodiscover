@@ -1,0 +1,41 @@
+EXPERIMENT: 8
+Forensic Analysis of evidential image using Pro Discover Tool
+Date: 04/03/2026
+AIM
+Using Pro-Discover Basics do experimental analysis of a Pro-Discover image and
+write down an investigation report.
+THEORY
+The ProDiscover® Family of computer security tools enables systems administrators, consultants,
+and investigators find the data they need on a computer disc. Whether you suspect your system has
+been hacked or are looking for discoverable evidence in a civil proceeding or criminal investigation,
+ProDiscover® will make your job easier, improve your productivity, and preserve the data needed
+for any legal proceedings.
+FEATURES:
+Incident Response: Quickly and positively identify intrusions to your systems without taking your
+system down. Get any corrupted system back online quickly and gather the evidence needed to
+prosecute an intruder.
+Corporate Policy Compliance Investigation: Check for policy violations or conduct internal
+investigations remotely through your company's network.
+e-Discovery: Improve your productivity and ensure compliance in any civil discovery action.
+Quickly search large data sets and find the documents you need. Preserve critical "last accessed"
+metadata and document your results.
+Computer Forensics: Find all the data, even in hidden HPA sections, Alternate Data Streams, or
+Slack space. Create hash signatures for all files and compare them to the information from the
+National Drug Intelligence "Hashkeeper" database. Automatically generate reports and
+"evidentiary quality" information that will hold up in court.
+ALGORITHM:
+1. Open ProDiscover and click on New Project. Enter the project number, project name, and
+description
+2. Select the Capture image option from Action in the toolbar
+3. Select the source disk, destination path for saving the data captured, Investigator name, etc, and
+then the ProDiscover analyzes the source disk.
+4. Select open image and choose the acquired image, click on content view, and select an image.
+or click on Action, then Add Image and select the image, then click on Content View and select
+image
+5. To recover the image, right-click on the deleted file and add the investigator comment, then
+right-click and copy the file to a folder.
+6. To generate a Report click on view →report
+OUTPUT
+Result
+Experimental analysis of a Pro-Discover image is performed and an investigation
+report is generated
