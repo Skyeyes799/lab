@@ -1,0 +1,118 @@
+EXPERIMENT 6
+FORENSIC ANALYSIS OF EVIDENTIAL IMAGE USING FTK
+Date: 25/02/2026
+AIM
+Using FTK drive
+acquire an image and perform static analysis to mount an image of a
+THEORY
+FTK Imager is a digital forensic software tool developed by AccessData. It is widely used in
+computer forensics to acquire and analyze digital evidence from various sources, such as hard
+drives, removable media, and forensic images.
+FTK Imager provides a range of features and capabilities that assist forensic examiners in their
+investigations. Some of its key features include:
+1. Disk Imaging: FTK Imager allows forensic professionals to create forensic images or exact copies
+of digital storage media. These images can be analyzed without altering or tampering with the
+original evidence.
+2. File Analysis: The software enables examiners to view and analyze the files and data within a
+forensic image. It provides various tools for searching, sorting, filtering, and examining file
+metadata and content.
+3. Mounting Images: FTK Imager allows forensic images to be mounted as a logical drive, making
+it easier to access and analyze the content using standard file explorer interfaces.
+4. Keyword Searching: The tool offers advanced keyword searching capabilities, which help
+investigators locate specific files, text strings, or metadata within a forensic image or a collection
+of images.
+5. Data Carving: FTK Imager includes data carving functionality, allowing the recovery of deleted
+or hidden files by searching for file signatures and other data patterns.
+6. Reporting: The software supports generating comprehensive reports summarizing the findings of
+a forensic examination. These reports can be customized and exported in various formats for use
+in legal proceedings or documentation.
+FTK Imager is commonly used in conjunction with other digital forensic tools and software suites.
+It is designed to provide a user-friendly interface while offering powerful capabilities for forensic
+analysis and evidence acquisition.
+PROCEDURE
+I. Take image of the Disk
+To perform disk imaging using FTK Imager, follow these general steps:
+1. Launch FTK Imager: Start by launching the FTK Imager software on your computer. It
+is available for Windows and can be downloaded from the AccessData website.
+2. Select the Source: In the FTK Imager main window, click on the "File" menu and choose
+the "Create Disk Image" option. A dialog box will appear where you can select the source
+device or media you want to image. This can be a physical hard drive, a removable storage
+device, or a forensic image file.
+3. Choose Destination: After selecting the source, choose the destination where you want to
+save the disk image. This should be a separate storage device or location to ensure that the
+image does not overwrite or modify the original evidence.
+4. Select Imaging Options: FTK Imager offers various imaging options that can be
+configured based on your requirements. These options include compression, encryption,
+and verification settings. You can choose to compress the image to save disk space, encrypt
+it for security, and enable verification to ensure data integrity.
+5. Start the Imaging Process: Once you have configured the imaging options, click on the
+"Start" button to begin the imaging process. FTK Imager will create a forensic image of
+the selected source and save it to the specified destination.
+6. Monitor the Progress: During the imaging process, FTK Imager will display the progress
+and provide information about the current status, including the number of sectors processed
+and the estimated time remaining. You can monitor this information to track the progress
+of the imaging process.
+7. Verify the Image: After the imaging process is complete, it is crucial to verify the integrity
+of the disk image. FTK Imager can perform a verification process to ensure that the created
+image is an exact replica of the source device. You should compare the hash values of the
+original source and the created image to ensure data integrity.
+8. Save a Report: FTK Imager allows you to generate a report summarizing the imaging
+process and the details of the created image. You can save this report for documentation
+purposes and future reference.
+II. Analyse the Image
+To analyze a disk image using FTK Imager, you can follow these general steps:
+1. 2. 3. 4. Launch FTK Imager: Start by launching FTK Imager on your computer.
+Open the Disk Image: In the FTK Imager main window, click on the "File" menu and select the
+"Add Evidence Item" option. Browse to the location where the disk image is saved and select it.
+FTK Imager will load the disk image for analysis.
+Explore the File System: Once the disk image is loaded, you can explore the file system within
+the image. FTK Imager displays the directory structure and files contained in the image. You can
+navigate through the folders and files to examine their properties and contents.
+View File Metadata: FTK Imager provides detailed metadata information for each file in the disk
+image. You can select a file and view its metadata, including file name, size, creation/modification
+dates, and other relevant information.
+5. Search for Files: FTK Imager offers powerful search capabilities to locate specific files or
+information within the disk image. You can use keywords, file extensions, or other criteria to
+perform searches. The search results will be displayed, allowing you to further analyze the
+identified files.
+6. Extract Files: If you need to extract specific files from the disk image, you can use FTK Imager
+to do so. Select the files you want to extract and choose the "Extract" option from the menu.
+Specify the destination folder where you want to save the extracted files.
+7. 8. Analyze File Content: FTK Imager allows you to analyze the content of individual files within
+the disk image. You can view text-based files, images, documents, and other file types supported
+by the software. This can help you extract valuable information and insights from the evidence.
+Generate Reports: FTK Imager enables you to generate reports summarizing the analysis of the
+disk image. You can customize the report format, include relevant details, and export it for
+documentation purposes or legal proceedings.
+III. Mount the Image
+To mount a disk image using FTK Imager, you can follow these steps:
+1. 2. 3. 4. 5. 6. 7. 8. Launch FTK Imager: Start by launching FTK Imager on your computer.
+Open FTK Imager: In the FTK Imager main window, click on the "File" menu and select the
+"Add Evidence Item" option.
+Select the Disk Image: In the "Add Evidence Item" dialog box, browse to the location where the
+disk image is saved and select it. Click on the "Finish" button to load the disk image into FTK
+Imager.
+Mount the Disk Image: Once the disk image is loaded, right-click on the disk image entry in the
+left-hand pane of FTK Imager. From the context menu, select the "Mount" option.
+Choose the Mount Options: A dialog box will appear with mount options. Here, you can specify
+the drive letter you want to assign to the mounted disk image. You can also choose whether to
+mount the image as read-only or with write access.
+Click "OK" to Mount: After configuring the mount options, click on the "OK" button to initiate
+the mounting process. FTK Imager will mount the disk image and assign it the specified drive
+letter.
+Access the Mounted Image: Once the disk image is successfully mounted, you can access it like
+any other logical drive on your computer. Open Windows File Explorer, and you will see the
+mounted image listed as a separate drive with the assigned drive letter.
+Analyze and Work with the Mounted Image: You can now navigate through the mounted disk
+image using File Explorer or any other file management tool. You can view and open files, analyze
+their content, perform searches, and conduct further analysis on the mounted image.
+9. Unmount the Image: When you have completed your analysis or no longer need the mounted
+image, it is important to unmount it properly. Right-click on the mounted image in the left-hand
+pane of FTK Imager and select the "Unmount" option from the context menu.
+SCEENSHOTS
+1. IMAGING A DISK
+2. ANALYSING IMAGE
+3. MOUNTING THE IMAGE
+RESULT
+Familiarised with the working of FTK Imager and obtained the information about the
+image, Image mounting is successfully completed.
