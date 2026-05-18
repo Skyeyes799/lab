@@ -37,3 +37,13 @@ ALGORITHM
 OUTPUT
 RESULT
 Familiarized various tools of sleuth kits
+
+
+Commands
+gunzip disko-2.dd.gz
+mmls disko-2.dd
+fsstat -o 2048 disko-2.dd
+fls -o 53248 disko-2.dd 4
+istat -o 53248 disko-2.dd 604
+icat -o 53248 disko-2.dd 613 | head
+ifind -o 53248 -d 33468 disko-2.dd
